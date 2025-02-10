@@ -1,8 +1,6 @@
 # PRODSCH
 Creates excel sheet after running PRODSCH in AppWorx
 
-------------------------------------------------------
-
 # REGEX explanations:
 
  \s* zero or more white space characters
@@ -22,14 +20,14 @@ Creates excel sheet after running PRODSCH in AppWorx
  ? makes the group optional. Will match if it exists and will match if it is absent
 
 
-  Parenthesis sets the Capture Groups:
+ ## Parenthesis sets the Capture Groups:
 
   (\S+) first Capture Group - name of chain or module
 
   (\w+\s+\w+\s+\d+\s+\d{4}\s+\d{2}:\d{2}) second Capture Group - date and time
 
 
-  Capture these patterns:
+ ## Capture these patterns:
 
   QUEUED       {Chain:OIT_C_ADASTRA_XFER} Thu Jan 30 2025 09:45 
  
