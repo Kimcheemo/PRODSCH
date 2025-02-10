@@ -3,7 +3,7 @@ Creates excel sheet after running PRODSCH in AppWorx
 
 ------------------------------------------------------
 
-REGEX explanations:
+# REGEX explanations:
 
  \s* zero or more white space characters
  
@@ -37,7 +37,7 @@ REGEX explanations:
 
 ---------------------------------------------------------------------------------------
 
-Tuple Deconstruction:
+# Tuple Deconstruction:
 
  var (sheet, row1, day) = prefixToSheet[prefix]; 
  
