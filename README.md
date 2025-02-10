@@ -21,9 +21,7 @@ REGEX explanations:
  
  ? makes the group optional. Will match if it exists and will match if it is absent
 
-<br/ >
-<br />
-<br/ >
+
 Parenthesis sets the Capture Groups:
 
 (\S+) first Capture Group - name of chain or module
