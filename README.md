@@ -3,28 +3,28 @@ Creates excel sheet after running PRODSCH in AppWorx
 
 # REGEX explanations:
 
- \s* zero or more white space characters
+ __\s*__ zero or more white space characters
  
- \s+ one or more white space characters
+ __\s+__ one or more white space characters
  
- \S+ one or more non-whitespace characters
+ __\S+__ one or more non-whitespace characters
  
- \w+ one or more word characters (days of the week and month name)
+ __\w+__ one or more word characters (days of the week and month name)
  
- \d+ is the day (in numbers)
+ __\d+__ is the day (in numbers)
  
- \d{4} is the year (2025)
+ __\d{4}__ is the year (2025)
  
- \d{2}:\d{2} is the time in HH:MM (09:45)
+ __\d{2}:\d{2}__ is the time in HH:MM (09:45)
  
- ? makes the group optional. Will match if it exists and will match if it is absent
+ __?__ makes the group optional. Will match if it exists and will match if it is absent
 
 
  ## Parenthesis sets the Capture Groups:
 
-  (\S+) first Capture Group - name of chain or module
+  __(\S+)__ first Capture Group - name of chain or module
 
-  (\w+\s+\w+\s+\d+\s+\d{4}\s+\d{2}:\d{2}) second Capture Group - date and time
+  __(\w+\s+\w+\s+\d+\s+\d{4}\s+\d{2}:\d{2})__ second Capture Group - date and time
 
 
  ## Capture these patterns:
