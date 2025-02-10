@@ -40,5 +40,7 @@ Creates excel sheet after running PRODSCH in AppWorx
  var (sheet, row1, day) = prefixToSheet[prefix]; 
  
  Tuple deconstruction allows you to store multiple values in a single object, and you can extract them individually.
- prefixToSheet[prefix] accesses the value (the tuple (IXLWorksheet sheet, int row, string day)) associated with the current prefix in the dictionary
+ 
+ prefixToSheet[prefix] accesses the value (the tuple (IXLWorksheet sheet, int row, string day)) associated with the current prefix in the dictionary.
+ 
  Ex: if prefix is OIT, then prefixToSheet["OIT'] might return a tuple like (OIT, 2, Wed)
