@@ -4,6 +4,7 @@ Creates excel sheet after running PRODSCH in AppWorx
 ------------------------------------------------------
 
 REGEX explanations
+
  \s* zero or more white space characters
  \s+ one or more white space characters
  \S+ one or more non-whitespace characters
