@@ -23,6 +23,7 @@ REGEX explanations:
 
 <br/ >
 <br />
+<br/ >
 Parenthesis sets the Capture Groups:
 
 (\S+) first Capture Group - name of chain or module
