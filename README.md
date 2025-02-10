@@ -3,7 +3,7 @@ Creates excel sheet after running PRODSCH in AppWorx
 
 ------------------------------------------------------
 
-REGEX explanations
+REGEX explanations:
 
  \s* zero or more white space characters
  
@@ -22,7 +22,7 @@ REGEX explanations
  ? makes the group optional. Will match if it exists and will match if it is absent
 
 
-Parenthesis sets the Capture Groups
+Parenthesis sets the Capture Groups:
 
 (\S+) first Capture Group - name of chain or module
 
@@ -37,7 +37,8 @@ Capture these patterns:
 
 ---------------------------------------------------------------------------------------
 
-Tuple Deconstruction
+Tuple Deconstruction:
+
  var (sheet, row1, day) = prefixToSheet[prefix]; 
  
  Tuple deconstruction allows you to store multiple values in a single object, and you can extract them individually.
