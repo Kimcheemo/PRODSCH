@@ -6,12 +6,19 @@ Creates excel sheet after running PRODSCH in AppWorx
 REGEX explanations
 
  \s* zero or more white space characters
+ 
  \s+ one or more white space characters
+ 
  \S+ one or more non-whitespace characters
+ 
  \w+ one or more word characters (days of the week and month name)
+ 
  \d+ is the day (in numbers)
+ 
  \d{4} is the year (2025)
+ 
  \d{2}:\d{2} is the time in HH:MM (09:45)
+ 
  ? makes the group optional. Will match if it exists and will match if it is absent
 
 Parenthesis sets the Capture Groups
